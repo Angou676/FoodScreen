@@ -1,0 +1,20 @@
+.text_bot_blck {
+    background-color: purple;
+    width: 60%;
+    padding: 3px 6px;
+    position: relative;
+    border-radius: 20px;
+    color: white;
+    margin: auto;
+    margin-top: -16px;
+}
+
+.con_blckp {
+    padding: 0px;
+    margin: 0px;
+    color: grey;
+}
+
+.bgcart_gradient {
+    background: linear-gradient(90deg, rgb(227, 239, 248) 0%, white 90%, rgb(227, 239, 248) 100%);
+}

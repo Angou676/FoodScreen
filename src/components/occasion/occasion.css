@@ -1,0 +1,19 @@
+.grid-row {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 25px;
+    row-gap: 10px;
+    grid-template-rows: repeat(2, 120px);
+}
+
+.pre_block_scroll_flex {
+    overflow-x: scroll !important;
+    padding: 2%;
+}
+
+.grid-row img {
+    height: 85px;
+    width: 85px;
+    border-radius: 20px;
+}

@@ -1,0 +1,26 @@
+.block_scroll_ {
+    overflow-x: scroll !important;
+    padding: 3%;
+}
+
+.text_ {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.con_blck {
+    padding-right: 6%;
+}
+
+.con_blck p {
+    padding: 0px;
+    margin: 0px;
+    color: grey;
+}
+
+.con_blck div span {
+    background-color: green;
+    color: #FFFFFF;
+    padding: 2px 10px;
+    border-radius: 20px;
+}

@@ -1,0 +1,26 @@
+.steper {
+    margin: 0px 4px 0px 4px;
+}
+
+#normal {
+    background-color: grey !important;
+    height: 8px !important;
+    width: 8px !important;
+    border-radius: 100%;
+}
+
+#active {
+    background-color: rgb(154, 0, 154) !important;
+    height: 8px !important;
+    width: 20px !important;
+    border-radius: 18px;
+}
+
+.banner_img {
+    height: 255px;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 20px;
+}

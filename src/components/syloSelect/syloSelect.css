@@ -1,0 +1,31 @@
+.grid_row_bk {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 25px;
+    row-gap: 10px;
+    grid-template-rows: repeat(2, 120px);
+}
+
+.text_bot {
+    background: linear-gradient(to right, rgb(167, 75, 167), rgb(197, 166, 109), purple);
+    width: 70%;
+    padding: 3px 6px;
+    position: relative;
+    border-radius: 20px;
+    color: white;
+    margin: auto;
+    margin-top: -16px;
+}
+
+.container section .style_box {
+    background: linear-gradient(to bottom right, rgb(171, 203, 229), rgb(254, 241, 206));
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.text_gradient{
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, purple, orange, purple);
+}
