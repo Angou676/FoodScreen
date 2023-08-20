@@ -5,6 +5,7 @@
     column-gap: 25px;
     row-gap: 10px;
     grid-template-rows: repeat(2, 120px);
+    width: max-content;
 }
 
 .pre_block_scroll_flex {

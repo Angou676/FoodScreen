@@ -8,8 +8,8 @@ const SyloSelect = () => {
         <>
             <HeadingSylo />
 
-            <section className='mxtop pre_block_scroll_flex scroll_br_hide'>
-                <div className='container grid_row_bk' >
+            <section className='mxtop pre_block_scroll_flex scroll_br_hide' >
+                <div className='container grid_row_bk'>
                     {
                         occasiondata.map(val => (
                             <section>
@@ -25,7 +25,7 @@ const SyloSelect = () => {
                 </div>
             </section>
 
-            <hr style={{ backgroundColor: 'purple', height:'1px'}} />
+            <hr style={{ backgroundColor: 'purple', height: '1px' }} />
         </>
 
     )
